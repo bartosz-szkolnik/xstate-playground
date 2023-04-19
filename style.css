@@ -21,13 +21,13 @@ body::before {
   right: 0;
 }
 
-body[data-state="dragging"] #box {
+body[data-state='dragging'] #box {
   background-color: red;
 }
 
 #box {
   height: 20vmin;
   width: 20vmin;
-  background-color: #99ccff; 
+  background-color: #99ccff;
   border-radius: 1rem;
 }
